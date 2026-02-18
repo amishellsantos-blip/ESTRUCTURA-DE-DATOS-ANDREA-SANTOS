@@ -6,7 +6,6 @@ package Tema1_Variables_y_tipos_de_datos;
  */
 
 public class Ejercicio5 {
-    
     public static void main(String[] args) {
         
         double tazas = 2.5;
