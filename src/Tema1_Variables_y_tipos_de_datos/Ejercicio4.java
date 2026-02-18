@@ -1,4 +1,4 @@
-package Variables_y_tipos_de_datos;
+package Tema1_Variables_y_tipos_de_datos;
 /*
  * Ejercicio 4 — Placa de un vehículo
  * Tema: Variables y tipos de datos

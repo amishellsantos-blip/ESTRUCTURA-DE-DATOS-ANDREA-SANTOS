@@ -1,4 +1,4 @@
-package Variables_y_tipos_de_datos;
+package Tema1_Variables_y_tipos_de_datos;
 /*
  * Ejercicio 2 — Calculadora de una tienda
  * Tema: Variables y tipos de datos

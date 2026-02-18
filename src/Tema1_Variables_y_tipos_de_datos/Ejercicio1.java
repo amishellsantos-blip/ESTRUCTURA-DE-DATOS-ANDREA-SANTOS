@@ -1,4 +1,4 @@
-package Variables_y_tipos_de_datos;
+package Tema1_Variables_y_tipos_de_datos;
 /*
  * Ejercicio 1 — Ficha de un estudiante
  * Tema: Variables y tipos de datos
@@ -7,7 +7,7 @@ package Variables_y_tipos_de_datos;
  */
 
 public class Ejercicio1 {
-    
+
     public static void main(String[] args) {
 
         String nombre = "Andrea Santos";

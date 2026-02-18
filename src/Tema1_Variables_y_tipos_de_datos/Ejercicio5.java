@@ -1,4 +1,4 @@
-package Variables_y_tipos_de_datos;
+package Tema1_Variables_y_tipos_de_datos;
 /*
  * Ejercicio 5 — Conversor de unidades
  * Tema: Variables y tipos de datos
@@ -18,5 +18,5 @@ public class Ejercicio5 {
         System.out.println("Cantidad en mililitros: " + mililitros + " ml");
         System.out.println("Cantidad en litros: " + litros + " L");
     }
-    
+
 }

@@ -1,4 +1,4 @@
-package Variables_y_tipos_de_datos;
+package Tema1_Variables_y_tipos_de_datos;
 /*
  * Ejercicio 3 — Sensor de temperatura
  * Tema: Variables y tipos de datos
