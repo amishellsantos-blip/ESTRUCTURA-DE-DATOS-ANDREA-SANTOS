@@ -7,7 +7,6 @@ package Tema1_Variables_y_tipos_de_datos;
  */
 
 public class Ejercicio3 {
-
     public static void main(String[] args) {
 
         double temperatura = 85.5;
