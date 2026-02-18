@@ -13,12 +13,10 @@ public class Ejercicio6 {
         int turnoActual = 25;
         int turnoEnPantalla = turnoActual;
 
-        System.out.println("Turno en pantalla antes de modificar: " + turnoEnPantalla);
-
-        turnoEnPantalla = 30; 
+        turnoEnPantalla = 26; 
 
         System.out.println("Turno actual: " + turnoActual);
-        System.out.println("Turno en pantalla despues de modificar: " + turnoEnPantalla);
+        System.out.println("Turno en pantalla: " + turnoEnPantalla);
 
          /*
          * Explicación:
