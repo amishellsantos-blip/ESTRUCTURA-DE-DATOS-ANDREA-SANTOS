@@ -6,7 +6,6 @@ package Tema1_Variables_y_tipos_de_datos;
  */
 
 public class Ejercicio2 {
-
     public static void main(String[] args) {
 
         double precioUnitario = 3400.0;
