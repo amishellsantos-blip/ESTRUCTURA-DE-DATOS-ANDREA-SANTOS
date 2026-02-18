@@ -7,7 +7,6 @@ package Tema1_Variables_y_tipos_de_datos;
  */
 
 public class Ejercicio4 {
-
     public static void main(String[] args) {
         
         String placa = "KLM123";
