@@ -1,4 +1,4 @@
-package Tema1_Variables_y_tipos_de_datos;
+package Tema1_Variables_y_tipos_de_datos.Ejercicios;
 /*
  * Ejercicio 5 — Conversor de unidades
  * Tema: Variables y tipos de datos
