@@ -35,6 +35,8 @@ public class Ejercicio1 {
         System.out.println("Subtotal  : $" + Subtotal);
         System.out.println("IVA (19%) : $" + IVA);
         System.out.println("Total     : $" + Total);
+
+        scanner.close();
     }
     
 }
