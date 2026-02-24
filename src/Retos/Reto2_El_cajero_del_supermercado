@@ -1,0 +1,41 @@
+package Retos.Reto2_El_cajero_del_supermercado;
+import java.util.Scanner;
+/*
+ * Reto 2 — El Cajero del Supermercado (Vectores y Sumatorias)
+ * Tema: Arreglos, ciclos for y sumatorias
+ * Descripción: Crear un arreglo de tipo double para almacenar los precios
+ * de 5 productos ingresados por el usuario utilizando Scanner y un ciclo for.
+ * Calcular la suma total de los precios, determinar el precio más alto
+ * ingresado y, si el total supera los 20.000, aplicar un descuento de 2.000
+ * mostrando el total final a pagar.
+ */
+public class Reto2 {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        double[] precios = new double[5];
+        double total = 0.0;
+        double precioMasAlto = 0.0;
+
+        for (int i = 0; i < precios.length; i++) {
+            System.out.print("Ingrese el precio del producto " + (i + 1) + ": ");
+            precios[i] = scanner.nextDouble();
+            total += precios[i];
+            if (precios[i] > precioMasAlto) {
+                precioMasAlto = precios[i];
+            }
+        }
+
+        System.out.println("\nTotal sin descuento: $" + total);
+        System.out.println("Precio más alto ingresado: $" + precioMasAlto);
+
+        if (total > 20000) {
+            total -= 2000;
+            System.out.println("Descuento aplicado: $2000");
+        }
+
+        System.out.println("Total a pagar: $" + total);
+        
+        scanner.close();
+    }
+}

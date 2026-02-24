@@ -1,4 +1,5 @@
 package Tema1_Variables_y_tipos_de_datos.Ejercicios_con_entrada_de_datos;
+import java.util.Scanner;
 /*
  * Ejercicio 4 — Perfil de usuario
  * Tema: Variables y tipos de datos
@@ -9,5 +10,29 @@ package Tema1_Variables_y_tipos_de_datos.Ejercicios_con_entrada_de_datos;
  * de dato usado en cada campo.
  */
 public class Ejercicio4 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese su nombre: ");
+        String nombre = scanner.nextLine();
+
+        System.out.print("Ingrese su edad: ");
+        int edad = scanner.nextInt();
+        scanner.nextLine(); 
+
+        System.out.print("Ingrese su ciudad: ");
+        String ciudad = scanner.nextLine();
+
+        System.out.print("Ingrese su correo electrónico: ");
+        String correo = scanner.nextLine();
+
+        System.out.print("¿Acepta los términos y condiciones? (true/false): ");
+        boolean aceptaTerminos = scanner.nextBoolean();
+
+        
+
+        scanner.close();
+    }
     
 }
