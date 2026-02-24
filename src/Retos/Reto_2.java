@@ -1,4 +1,4 @@
-package Retos.Reto2_El_cajero_del_supermercado;
+package Retos;
 import java.util.Scanner;
 /*
  * Reto 2 — El Cajero del Supermercado (Vectores y Sumatorias)
@@ -9,9 +9,10 @@ import java.util.Scanner;
  * ingresado y, si el total supera los 20.000, aplicar un descuento de 2.000
  * mostrando el total final a pagar.
  */
-public class Reto2 {
-    public static void main(String[] args) {
+public class Reto_2 {
 
+    public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
         double[] precios = new double[5];
         double total = 0.0;
@@ -31,11 +32,12 @@ public class Reto2 {
 
         if (total > 20000) {
             total -= 2000;
-            System.out.println("Descuento aplicado: $2000");
+            System.out.println("¡Tienes un descuento de $2000!");
         }
 
         System.out.println("Total a pagar: $" + total);
-        
+
         scanner.close();
     }
+    
 }
