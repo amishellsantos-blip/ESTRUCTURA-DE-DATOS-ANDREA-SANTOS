@@ -30,7 +30,12 @@ public class Ejercicio4 {
         System.out.print("¿Acepta los términos y condiciones? (true/false): ");
         boolean aceptaTerminos = scanner.nextBoolean();
 
-        
+        System.out.println("\n==== Perfil de usuario ====");
+        System.out.println("Nombre            : " + nombre + " (String)");
+        System.out.println("Edad              : " + edad + " (int)");
+        System.out.println("Ciudad            : " + ciudad + " (String)");
+        System.out.println("Correo electrónico: " + correo + " (String)");
+        System.out.println("Acepta términos   : " + (aceptaTerminos ? "Sí" : "No") + " (boolean)");
 
         scanner.close();
     }
