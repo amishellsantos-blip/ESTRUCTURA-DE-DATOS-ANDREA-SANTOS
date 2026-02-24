@@ -1,4 +1,4 @@
-package Tema3_Estructuras_lineales_y_no_lineales;
+package Tema3_Estructuras_lineales_y_no_lineales.Ejercicios;
 /*
  * Ejercicio 11 — Lista de pasajeros
  * Tema: Estructuras lineales (Arreglos)

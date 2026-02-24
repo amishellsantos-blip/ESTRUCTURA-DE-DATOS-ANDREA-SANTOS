@@ -1,4 +1,4 @@
-package Tema2_Variables_por_referencia;
+package Tema2_Variables_por_referencia.Ejercicios;
 /*
  * Ejercicio 9 — Notas de un curso
  * Tema: Variables por referencia
