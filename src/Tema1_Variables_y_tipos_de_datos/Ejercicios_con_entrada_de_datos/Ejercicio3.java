@@ -31,4 +31,5 @@ public class Ejercicio3 {
 
         scanner.close();
     }
+    
 }

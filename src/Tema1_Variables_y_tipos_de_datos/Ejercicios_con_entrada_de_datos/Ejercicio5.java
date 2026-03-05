@@ -39,6 +39,6 @@ public class Ejercicio5 {
         System.out.println("\n" + nombre + ", su IMC es: " + imc + " (" + clasificacion + ")");
 
         scanner.close();
-        
     }
+    
 }
