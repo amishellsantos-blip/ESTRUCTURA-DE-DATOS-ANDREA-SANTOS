@@ -45,7 +45,7 @@ public class Reto_2 {
                         fin = medio - 1;
                     }
                 }
-                
+
                 if (!esVIP) {
                     System.out.println("¡Alerta de fraude! La cuenta " + numeroCuenta + " no es VIP.");
                 } else {
@@ -55,4 +55,5 @@ public class Reto_2 {
         }
         scanner.close();
     }
+    
 }
