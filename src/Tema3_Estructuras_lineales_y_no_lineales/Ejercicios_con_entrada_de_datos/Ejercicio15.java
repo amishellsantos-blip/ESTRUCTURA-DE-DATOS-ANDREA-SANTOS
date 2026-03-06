@@ -60,7 +60,5 @@ public class Ejercicio15 {
 
         scanner.close();
     }
-
-
     
 }
