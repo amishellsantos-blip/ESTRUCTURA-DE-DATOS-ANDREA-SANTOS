@@ -22,6 +22,7 @@ public class Ejercicio5 {
         }
 
         System.out.println("Número de estudiantes con nota 5.0: " + contador);
+        
     }
     
 }
