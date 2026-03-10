@@ -19,39 +19,44 @@ public class Ejercicio2 {
 
     public static void main(String[] args) {
         
-        Scanner scanner = new Scanner (System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Ingrese la cantidad de libros: ");
+        System.out.print("Ingrese la cantidad de libros: ");
         int n = scanner.nextInt();
 
-        int[] libros = new int[n];
+        int[] isbn = new int[n]; 
 
-        System.out.println("Ingrese el código ISBN de cada libro:");
+        for (int i = 0; i < n; i++) {
 
-        for (int i = 0; i < n; i++){
-            System.out.println("Libro N°" + (i+1) + ": ");
-            libros[i] = scanner.nextInt();
-        }
+            System.out.print("Ingrese el ISBN del libro " + (i + 1) + ": ");
+            isbn[i] = scanner.nextInt();
 
-        for (int i = 1; i < libros.length; i++) {
-            int key = libros[i];
-            int j = i - 1;
+            for (int j = 1; j <= i; j++) {
 
-            while (j >= 0 && libros[j] > key) {
-                libros[j + 1] = libros[j];
-                j--;
+                int clave = isbn[j];
+                int k = j - 1;
+
+                while (k >= 0 && isbn[k] > clave) {
+                    isbn[k + 1] = isbn[k];
+                    k--;
+                }
+
+                isbn[k + 1] = clave;
             }
-            libros[j + 1] = key;
 
-            // Visualización paso a paso
-            System.out.print("Paso " + i + ": ");
-            for (int libro : libros) {
-                System.out.print(libro + " ");
+            System.out.print("Estado del estante: [");
+
+            for (int k = 0; k < isbn.length; k++) {
+                System.out.print(isbn[k]);
+
+                if (k < isbn.length - 1) {
+                    System.out.print(", ");
+                }
             }
-            System.out.println();
+
+            System.out.println("]");
         }
 
         scanner.close();
     }
-    
 }
