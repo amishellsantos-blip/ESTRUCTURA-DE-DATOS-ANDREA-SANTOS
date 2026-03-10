@@ -49,6 +49,8 @@ public class Ejercicio4 {
             System.out.println(alumno);
         }
 
+        scanner.close();
+
     }
     
 }

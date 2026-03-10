@@ -57,6 +57,7 @@ public class Ejercicio1 {
         System.out.println("Plata: " + tiempos[1] + " segundos");
         System.out.println("Bronce: " + tiempos[2] + " segundos");
     
+        scanner.close();
     }
     
 }

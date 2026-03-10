@@ -54,6 +54,8 @@ public class Ejercicio3 {
             System.out.print(paquete + " ");
         }
 
+        scanner.close();
+
         /*
          * El algoritmo Shell Sort es generalmente más rápido que la inserción simple porque 
          * reduce significativamente el número de movimientos necesarios para colocar un elemento

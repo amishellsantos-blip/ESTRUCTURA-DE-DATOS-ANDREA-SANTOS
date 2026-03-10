@@ -74,5 +74,6 @@ public class Ejercicio5 {
             System.out.println("Ambos métodos tuvieron la misma eficiencia para estos datos.");
         }
 
+        scanner.close();
     }
 }
