@@ -24,13 +24,16 @@ public class Ejercicio2 {
         int posicion = -1;
 
         while (inicio <= fin) {
+
             int medio = inicio + (fin - inicio) / 2;
 
             if (cedulas[medio] == buscar) {
                 posicion = medio;
                 break;
+
             } else if (cedulas[medio] < buscar) {
                 inicio = medio + 1;
+                
             } else {
                 fin = medio - 1;
             }
