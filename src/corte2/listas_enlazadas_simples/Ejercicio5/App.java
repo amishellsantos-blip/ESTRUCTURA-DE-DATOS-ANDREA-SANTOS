@@ -38,7 +38,8 @@ public class App {
                     while (true) {
                         System.out.print("Ingrese el nombre del artista: ");
                         artista = scanner.nextLine();
-                        if (!artista.matches(".*\\d.*")) break;
+                        if (!artista.matches(".*\\d.*"))
+                            break;
                         System.out.println("¡¡Entrada inválida. El nombre del artista no debe contener números.!!");
                     }
 
@@ -47,7 +48,8 @@ public class App {
                         System.out.print("Ingrese la duración en segundos: ");
                         try {
                             duracion = Integer.parseInt(scanner.nextLine());
-                            if (duracion > 0) break;
+                            if (duracion > 0)
+                                break;
                             System.out.println("¡¡La duración debe ser mayor a cero.!!");
                         } catch (NumberFormatException e) {
                             System.out.println("¡¡Entrada inválida. Ingrese un número entero.!!");
@@ -58,7 +60,8 @@ public class App {
                     while (true) {
                         System.out.print("Ingrese el género musical: ");
                         genero = scanner.nextLine();
-                        if (!genero.matches(".*\\d.*")) break;
+                        if (!genero.matches(".*\\d.*"))
+                            break;
                         System.out.println("¡¡Entrada inválida. El género no debe contener números.!!");
                     }
 
@@ -71,9 +74,10 @@ public class App {
                     System.out.println("\n¡¡Canción agregada con éxito!!");
 
                     while (true) {
-                        System.out.print("¿Desea agregar otra canción? (si/no): ");
+                        System.out.print("\n¿Desea agregar otra canción? (si/no): ");
                         String respuesta = scanner.nextLine().toLowerCase().trim();
-                        if (respuesta.equals("si")) break;
+                        if (respuesta.equals("si"))
+                            break;
                         if (respuesta.equals("no")) {
                             agregarMas = false;
                             break;

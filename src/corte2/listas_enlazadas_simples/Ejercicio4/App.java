@@ -37,7 +37,8 @@ public class App {
                             System.out.print("\nIngrese el ID del sensor: ");
                             try {
                                 idSensor = Integer.parseInt(scanner.nextLine());
-                                if (idSensor > 0) break;
+                                if (idSensor > 0)
+                                    break;
                                 System.out.println("¡¡El ID debe ser un número positivo.!!");
                             } catch (NumberFormatException e) {
                                 System.out.println("¡¡Entrada inválida. Ingrese un número entero.!!");
@@ -73,7 +74,7 @@ public class App {
                         System.out.println("\n¡¡Lectura registrada exitosamente!!");
 
                         while (true) {
-                            System.out.print("¿Desea registrar otra lectura? (si/no): ");
+                            System.out.print("\n¿Desea registrar otra lectura? (si/no): ");
                             String respuesta = scanner.nextLine().toLowerCase().trim();
                             if (respuesta.equals("si")) {
                                 break;
