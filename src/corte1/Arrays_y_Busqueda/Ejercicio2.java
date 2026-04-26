@@ -1,5 +1,7 @@
 package Arrays_y_Busqueda;
+
 import java.util.Scanner;
+
 /*2. Buscador de Cédulas (Base de Datos Bancaria)
 Un banco tiene una lista de 1.000 clientes organizados de forma estricta y ascendente por su 
 número de cédula o ID.
@@ -11,10 +13,10 @@ encontrar al cliente dividiendo la lista a la mitad en cada paso. */
 public class Ejercicio2 {
 
     public static void main(String[] args) {
-        
-        Scanner scanner = new Scanner (System.in);
 
-        int[] cedulas = {100001, 100002, 100003, 100004, 100005, 100006, 100007, 100008, 100009, 100010};
+        Scanner scanner = new Scanner(System.in);
+
+        int[] cedulas = { 100001, 100002, 100003, 100004, 100005, 100006, 100007, 100008, 100009, 100010 };
 
         System.out.print("Ingrese el número de cédula del cliente a buscar: ");
         int buscar = scanner.nextInt();
@@ -33,7 +35,7 @@ public class Ejercicio2 {
 
             } else if (cedulas[medio] < buscar) {
                 inicio = medio + 1;
-                
+
             } else {
                 fin = medio - 1;
             }
@@ -47,5 +49,5 @@ public class Ejercicio2 {
 
         scanner.close();
     }
-    
+
 }

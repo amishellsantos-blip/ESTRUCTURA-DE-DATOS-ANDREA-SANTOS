@@ -28,6 +28,17 @@ public class Inventario {
         }
     }
 
+    public boolean buscarProducto(String nombre) {
+        Producto actual = cabeza;
+        while (actual != null) {
+            if (actual.nombre.equalsIgnoreCase(nombre)) {
+                return true;
+            }
+            actual = actual.siguiente;
+        }
+        return false;
+    }
+
     public void mostrarTodosProductos() {
         System.out.println("\n" + "=".repeat(80));
         System.out.println("TABLA DE TODOS LOS PRODUCTOS DEL INVENTARIO");
