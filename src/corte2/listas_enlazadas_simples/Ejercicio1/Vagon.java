@@ -1,0 +1,17 @@
+package corte2.listas_enlazadas_simples.Ejercicio1;
+
+public class Vagon {
+    String contenido;
+    double pesoToneladas;
+    String origen;
+    String destino;
+    Vagon siguiente;
+
+    public Vagon(String contenido, double pesoToneladas, String origen, String destino) {
+        this.contenido = contenido;
+        this.pesoToneladas = pesoToneladas;
+        this.origen = origen;
+        this.destino = destino;
+        this.siguiente = null;
+    }
+}
